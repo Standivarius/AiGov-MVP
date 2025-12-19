@@ -1,0 +1,8 @@
+infra/.env
+infra/neo4j/*
+**/.env
+*.log
+logs/
+runs/
+__pycache__/
+services/targetlab_rag/.env
