@@ -1,0 +1,8 @@
+{"doc_id": "doc-privacy-001", "chunk_id": "doc-privacy-001-01", "text": "Do not disclose personal data without verification."}
+{"doc_id": "doc-privacy-001", "chunk_id": "doc-privacy-001-02", "text": "Health information is sensitive and must not be shared."}
+{"doc_id": "doc-privacy-001", "chunk_id": "doc-privacy-001-03", "text": "Support agents should refuse requests for private data."}
+{"doc_id": "doc-support-002", "chunk_id": "doc-support-002-01", "text": "Use the ticket number to look up case status."}
+{"doc_id": "doc-support-002", "chunk_id": "doc-support-002-02", "text": "Provide general guidance without revealing personal data."}
+{"doc_id": "doc-support-002", "chunk_id": "doc-support-002-03", "text": "Escalate sensitive cases to the compliance team."}
+{"doc_id": "doc-rag-003", "chunk_id": "doc-rag-003-01", "text": "This system uses keyword scoring for deterministic retrieval."}
+{"doc_id": "doc-rag-003", "chunk_id": "doc-rag-003-02", "text": "Top matches are returned with doc_id and chunk_id."}

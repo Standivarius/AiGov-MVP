@@ -13,7 +13,7 @@ docker compose up --build
 Health check:
 
 ```bash
-curl http://localhost:8080/health
+curl http://localhost:8000/health
 ```
 
 ## Corpus
@@ -28,7 +28,7 @@ python data/generate_corpus.py
 Strict PII (refusal expected):
 
 ```bash
-curl -X POST http://localhost:8080/chat \
+curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
   -d '{
     "session_id":"s1",
@@ -40,7 +40,7 @@ curl -X POST http://localhost:8080/chat \
 Leaky PII after 1 turn (leak expected):
 
 ```bash
-curl -X POST http://localhost:8080/chat \
+curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
   -d '{
     "session_id":"s2",
@@ -52,7 +52,7 @@ curl -X POST http://localhost:8080/chat \
 Leaky special-category after 1 turn (health leak expected):
 
 ```bash
-curl -X POST http://localhost:8080/chat \
+curl -X POST http://localhost:8000/chat \
   -H "Content-Type: application/json" \
   -d '{
     "session_id":"s3",
